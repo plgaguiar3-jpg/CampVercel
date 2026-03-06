@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm ci --prefix wp-content/themes/Campanha_02 && npm run build --prefix wp-content/themes/Campanha_02",
+  "buildCommand": "npm ci --prefix wp-content/themes/Campanha_02 && npm run build --prefix wp-content/themes/Campanha_02 && mkdir -p wp-content/themes/Campanha_02/dist/Fotos && cp -R Fotos/. wp-content/themes/Campanha_02/dist/Fotos/",
   "outputDirectory": "wp-content/themes/Campanha_02/dist",
   "installCommand": "echo \"Dependencies are installed in buildCommand\"",
   "rewrites": [
